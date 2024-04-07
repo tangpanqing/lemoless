@@ -1,73 +1,45 @@
+@position_list: static, fixed, relative, absolute;
 
-.position-fixed {
-    position: fixed;
-}
-
-.position-relative {
-    position: relative;
-}
-
-.position-absolute {
-    position: absolute;
-}
-
-.top-0 {
-    top: 0;
-}
-
-.left-0 {
-    left: 0;
-}
-
-.bottom-4 {
-    bottom: 4px;
-}
-
-.right-16{
-    right: 16px;
-}
-
-.width-1\/2{
-    width: 50%;
-}
-
-.width-1\/3{
-    width: 33.333333%;
-}
-
-.width-full {
-    width: 100%;
-}
-
-.height-full {
-    height: 100%;
-}
-
-.screen-full {
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-}
-
-.z-index-1{
-    z-index: 1;
-}
-
-.z-index-2{
-    z-index: 2;
-}
-
-.z-index-900{
-    z-index: 900;
-}
-
-.z-index-1000{
-    z-index: 1000;
-}
+each(@position_list, {
+  .position-@{value} {
+    position: @value;
+  }
+})
 
 @media screen and (min-width: 768px) {
-    .md\:width-auto {
-        width: auto;
+  each(@position_list, {
+    .md\:position-@{value} {
+      position: @value;
     }
+  })
 }
+
+@ori_list: top, right, bottom, left;
+each(@ori_list, {
+  .@{value}-0 {
+      @{value}: 0;
+  }
+
+  .@{value}-4 {
+      @{value}: 4px;
+  }
+
+  .@{value}-8 {
+      @{value}: 8px;
+  }
+
+  .@{value}-12 {
+      @{value}: 12px;
+  }
+
+  .@{value}-16 {
+      @{value}: 16px;
+  }
+})
+
+@index_list: 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000;
+each(@index_list, {
+  .z-index-@{value} {
+    z-index: @value;
+  }
+})

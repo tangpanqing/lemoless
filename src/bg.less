@@ -1,37 +1,37 @@
-.bg-gray-50 {
+@light_list: 50, 100, 200, 300, 400, 500, 600, 700, 800, 900;
 
-}
+each(@light_list, {
+  .bg-gray-@{value} {
+    background: hsl(0, 0, @value*0.001);
+  }
 
-.bg-gray-900 {
-    background: #333;
-}
+  .bg-blue-@{value} {
+    background: hsl(220, 100%, @value*0.001);
+  }
+
+  .bg-green-@{value} {
+    background: hsl(90, 100%, @value*0.001);
+  }
+
+  .bg-red-@{value} {
+    background: hsl(0, 100%, @value*0.001);
+  }
+})
 
 .bg-white {
-    background: #fff;
+  background: #fff;
 }
 
-.bg-black{
-    background: #8c22ff;
+.bg-black {
+  background: #3b3b3b;
 }
 
-.opacity-80{
-    opacity: 0.8;
-}
-
-.bg-blue-700{
-    background: #357eec;
-}
-
-.bg-green-700{
-    background: #2eb93f;
-}
-
-.bg-red-700{
-    background: #fc214a;
+.bg-transparent {
+  background: transparent !important;
 }
 
 @media screen and (min-width: 768px) {
-    .md\:bg-transparent {
-        background: transparent !important;
-    }
+  .md\:bg-transparent {
+    background: transparent !important;
+  }
 }

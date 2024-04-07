@@ -1,0 +1,48 @@
+@width_map: {
+  auto: auto;
+  full: 100%;
+    1-12 : 8.333333%;
+    2-12 : 16.666666%;
+    3-12 : 25%;
+    4-12 : 33.333333%;
+    5-12 : 41.666666%;
+    6-12 : 50%;
+    7-12 : 58.333333%;
+    8-12 : 66.666666%;
+    9-12 : 75%;
+    10-12 : 83.333333%;
+    11-12 : 91.666666%;
+    12-12 : 100%;
+    1-2 : 50%;
+    1-3 : 33.333333%;
+    1-4 : 25%;
+    1-5 : 20%;
+    1-6 : 16.666666%;
+}
+
+each(@width_map, {
+  .width-@{key} {
+    width: @value;
+  }
+  .height-@{key} {
+    height: @value;
+  }
+})
+
+@media screen and (min-width: 768px) {
+  each(@width_map, {
+    .md\:width-@{key} {
+      width: @value;
+    }
+    .md\:height-@{key} {
+      height: @value;
+    }
+  })
+}
+
+.screen-full {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}

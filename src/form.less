@@ -2,78 +2,60 @@
 .select,
 .textarea,
 .button {
-    display: block;
-    width: 100%;
-    padding: 8px;
-    border-radius: 4px;
-    border: 1px solid #dedede;
-    font: inherit;
-    color: #333;
-    background: #f7f7f7;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #dedede;
+  font: inherit;
+  color: #333;
+  background: #f7f7f7;
 }
 
 .input:focus,
 .select:focus,
 .textarea:focus,
 .button:focus {
-    outline: 2px solid rgba(73, 168, 255, 0.76);
-    outline-offset: 4px;
+  outline: 2px solid rgba(73, 168, 255, 0.76);
+  outline-offset: 4px;
 }
 
 .button {
-    display: inline-block;
-    width: auto;
+  display: inline-block;
+  width: auto;
+}
+
+@button_map: {
+  primary: #507fec;
+  info: #59eeff;
+  success: #369c66;
+  warning: #ffd149;
+  danger: #d72306;
+}
+
+each(@button_map, {
+  .button-@{key} {
+    color: #fff;
+    background: @value;
+    border: 1px solid @value;
+  }
+})
+
+.button-warning {
+  color: #333;
 }
 
 .button-block {
-    display: block;
-    width: 100%;
-    text-align: center;
-}
-
-.button-primary {
-    color: #fff;
-    background: #507fec;
-    border: 1px solid #507fec;
-}
-
-.button-info {
-    color: #fff;
-    background: #59eeff;
-    border: 1px solid #59eeff;
-}
-
-.button-success {
-    color: #fff;
-    background: #369c66;
-    border: 1px solid #369c66;
-}
-
-.button-warning {
-    color: #333;
-    background: #ffd149;
-    border: 1px solid #ffd149;
-}
-
-.button-danger {
-    color: #fff;
-    background: #d72306;
-    border: 1px solid #d72306;
-}
-
-.button-large {
-    padding: 12px;
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
 .button-small {
-    padding: 4px;
-    font-size: 0.875rem;
+  padding: 4px;
+  font-size: 0.875rem;
 }
 
-.button-empty{
-    background: transparent;
-}
-
-.textarea {
-    width: 100%;
+.button-large {
+  padding: 12px;
 }

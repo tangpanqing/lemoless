@@ -1,0 +1,23 @@
+{
+  "name": "sleekcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "lessc src/main.less dist/sleekcss.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangpanqing/sleekcss.git"
+  },
+  "author": "tangpanqing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tangpanqing/sleekcss/issues"
+  },
+  "homepage": "https://github.com/tangpanqing/sleekcss#readme"
+}

@@ -1,112 +1,139 @@
+@gap_list: 0, 4, 8, 12, 16, 20, 40, 60, 80, 100;
 
-.margin-left-8 {
-    margin-left: 8px;
-}
+each(@gap_list, {
+  .margin-@{value} {
+    margin: ~"@{value}px";
+  }
 
-.margin-left-16 {
-    margin-left: 16px;
-}
+  .margin-top-@{value} {
+    margin-top: ~"@{value}px";
+  }
 
-.margin-top-4 {
-    margin-top: 4px;
-}
+  .margin-right-@{value} {
+    margin-right: ~"@{value}px";
+  }
 
-.margin-top-8 {
-    margin-top: 8px;
-}
+  .margin-bottom-@{value} {
+    margin-bottom: ~"@{value}px";
+  }
 
-.margin-top-12 {
-    margin-top: 12px;
-}
+  .margin-left-@{value} {
+    margin-left: ~"@{value}px";
+  }
 
-.margin-top-16 {
-    margin-top: 16px;
-}
+  .margin-x-@{value} {
+    margin-left: ~"@{value}px";
+    margin-right: ~"@{value}px";
+  }
 
-.margin-top-20 {
-    margin-top: 20px;
-}
+  .margin-y-@{value} {
+    margin-top: ~"@{value}px";
+    margin-bottom: ~"@{value}px";
+  }
 
-.margin-top-40 {
-    margin-top: 40px;
-}
 
-.margin-top-60 {
-    margin-top: 60px;
-}
+  .padding-@{value} {
+    padding: ~"@{value}px";
+  }
 
-.margin-top-80 {
-    margin-top: 80px;
-}
+  .padding-top-@{value} {
+    padding-top: ~"@{value}px";
+  }
 
-.margin-bottom-40 {
-    margin-bottom: 40px;
-}
+  .padding-right-@{value} {
+    padding-right: ~"@{value}px";
+  }
 
-.margin-bottom-8{
-    margin-bottom: 8px;
-}
+  .padding-bottom-@{value} {
+    padding-bottom: ~"@{value}px";
+  }
 
-.margin-bottom-16 {
-    margin-top: 16px;
-}
+  .padding-left-@{value} {
+    padding-left: ~"@{value}px";
+  }
 
-.padding-top-0 {
-    padding-top: 0;
-}
+  .padding-x-@{value} {
+    padding-left: ~"@{value}px";
+    padding-right: ~"@{value}px";
+  }
 
-.padding-y-4 {
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
+  .padding-y-@{value} {
+    padding-top: ~"@{value}px";
+    padding-bottom: ~"@{value}px";
+  }
 
-.padding-8 {
-    padding: 8px;
-}
-
-.padding-x-8 {
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-.padding-y-8 {
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-
-.padding-t-16 {
-    padding-top: 16px;
-}
-
-.padding-16 {
-    padding: 16px;
-}
-
-.padding-x-16 {
-    padding-left: 16px;
-    padding-right: 16px;
-}
-
-.padding-x-24 {
-    padding-left: 24px;
-    padding-right: 24px;
-}
-
-.padding-y-16{
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-
-.gap-16 {
-    gap: 1rem;
-}
+  .gap-@{value} {
+    gap: ~"@{value}px";
+  }
+})
 
 @media screen and (min-width: 768px) {
-    .md\:padding-0 {
-        padding: 0;
+  each(@gap_list, {
+    .md\:margin-@{value} {
+      margin: ~"@{value}px";
     }
 
-    .md\:margin-top-0{
-        margin-top: 0;
+    .md\:margin-top-@{value} {
+      margin-top: ~"@{value}px";
     }
+
+    .md\:margin-right-@{value} {
+      margin-right: ~"@{value}px";
+    }
+
+    .md\:margin-bottom-@{value} {
+      margin-bottom: ~"@{value}px";
+    }
+
+    .md\:margin-left-@{value} {
+      margin-left: ~"@{value}px";
+    }
+
+    .md\:margin-x-@{value} {
+      margin-left: ~"@{value}px";
+      margin-right: ~"@{value}px";
+    }
+
+    .md\:margin-y-@{value} {
+      margin-top: ~"@{value}px";
+      margin-bottom: ~"@{value}px";
+    }
+
+
+    .md\:padding-@{value} {
+      padding: ~"@{value}px";
+    }
+
+    .md\:padding-top-@{value} {
+      padding-top: ~"@{value}px";
+    }
+
+    .md\:padding-right-@{value} {
+      padding-right: ~"@{value}px";
+    }
+
+    .md\:padding-bottom-@{value} {
+      padding-bottom: ~"@{value}px";
+    }
+
+    .md\:padding-left-@{value} {
+      padding-left: ~"@{value}px";
+    }
+
+    .md\:padding-x-@{value} {
+      padding-left: ~"@{value}px";
+      padding-right: ~"@{value}px";
+    }
+
+    .md\:padding-y-@{value} {
+      padding-top: ~"@{value}px";
+      padding-bottom: ~"@{value}px";
+    }
+
+    .md\:gap-@{value} {
+      gap: ~"@{value}px";
+    }
+  })
+
+
 }
