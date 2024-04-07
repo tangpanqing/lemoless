@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "build": "lessc src/main.less dist/sleekcss.css",
+    "build": "lessc src/less/main.less dist/sleekcss.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
