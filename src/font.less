@@ -1,0 +1,21 @@
+@size_map: {
+    small     : 12px;
+    normal    : 16px;
+    large     : 20px;
+    large-x     : 24px;
+    large-xx     : 28px;
+    large-xxx     : 32px;
+    large-xxxx     : 36px;
+}
+each(@size_map, {
+    .font-size-@{key}{
+        font-size: @value;
+    }
+})
+
+@weight_list: 100,200,300,400,500,600,700,bold;
+each(@weight_list, {
+    .font-weight-@{value}{
+        font-weight: @value;
+    }
+})

@@ -1,0 +1,14 @@
+@direction_list: left,center,right;
+each(@direction_list, {
+    .text-@{value}{
+        text-align: @value;
+    }
+})
+
+.text-white {
+    color: white;
+}
+
+.text-gray-500 {
+    color: #333;
+}

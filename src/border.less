@@ -1,0 +1,23 @@
+@radius_type: {
+    small     : 4px;
+    normal    : 8px;
+    large     : 12px;
+}
+
+each(@radius_type, {
+    .radius-@{key} {
+        border-radius: @value !important;
+        overflow: hidden;
+    }
+})
+
+.border {
+    border: 1px solid #dedede;
+}
+
+@direction_list: top,bottom,left,right;
+each(@direction_list, {
+    .border-@{value}{
+        border-@{value}: 1px solid #dedede;
+    }
+})
