@@ -1226,7 +1226,7 @@ a {
 .display-flex {
   display: flex;
 }
-.grow {
+.flex-grow-1 {
   flex-grow: 1;
 }
 .justify-content-between {
@@ -1577,13 +1577,13 @@ a {
   background: #fff;
 }
 .bg-black {
-  background: #3b3b3b;
+  background: #333333;
 }
 .text-white {
   color: #fff;
 }
 .text-black {
-  color: #3b3b3b;
+  color: #333333;
 }
 .bg-transparent {
   background: transparent !important;
