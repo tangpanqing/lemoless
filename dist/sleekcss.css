@@ -1250,244 +1250,268 @@ a {
   }
 }
 .bg-gray-50 {
-  background: hsl(0, 0%, 5%);
+  background: hsl(0, 0%, 93.75%);
 }
 .bg-blue-50 {
-  background: hsl(220, 100%, 5%);
+  background: hsl(200, 45.703125%, 93.75%);
 }
 .bg-green-50 {
-  background: hsl(90, 100%, 5%);
+  background: hsl(135, 45.703125%, 93.75%);
 }
 .bg-red-50 {
-  background: hsl(0, 100%, 5%);
+  background: hsl(0, 45.703125%, 93.75%);
 }
 .text-gray-50 {
-  color: hsl(0, 0%, 5%);
+  color: hsl(0, 0%, 93.75%);
 }
 .text-blue-50 {
-  color: hsl(220, 100%, 5%);
+  color: hsl(208, 45.703125%, 93.75%);
 }
 .text-green-50 {
-  color: hsl(90, 100%, 5%);
+  color: hsl(114, 45.703125%, 93.75%);
 }
 .text-red-50 {
-  color: hsl(0, 100%, 5%);
+  color: hsl(0, 45.703125%, 93.75%);
 }
 .bg-gray-100 {
-  background: hsl(0, 0%, 10%);
-}
-.bg-blue-100 {
-  background: hsl(220, 100%, 10%);
-}
-.bg-green-100 {
-  background: hsl(90, 100%, 10%);
-}
-.bg-red-100 {
-  background: hsl(0, 100%, 10%);
-}
-.text-gray-100 {
-  color: hsl(0, 0%, 10%);
-}
-.text-blue-100 {
-  color: hsl(220, 100%, 10%);
-}
-.text-green-100 {
-  color: hsl(90, 100%, 10%);
-}
-.text-red-100 {
-  color: hsl(0, 100%, 10%);
-}
-.bg-gray-200 {
-  background: hsl(0, 0%, 20%);
-}
-.bg-blue-200 {
-  background: hsl(220, 100%, 20%);
-}
-.bg-green-200 {
-  background: hsl(90, 100%, 20%);
-}
-.bg-red-200 {
-  background: hsl(0, 100%, 20%);
-}
-.text-gray-200 {
-  color: hsl(0, 0%, 20%);
-}
-.text-blue-200 {
-  color: hsl(220, 100%, 20%);
-}
-.text-green-200 {
-  color: hsl(90, 100%, 20%);
-}
-.text-red-200 {
-  color: hsl(0, 100%, 20%);
-}
-.bg-gray-300 {
-  background: hsl(0, 0%, 30%);
-}
-.bg-blue-300 {
-  background: hsl(220, 100%, 30%);
-}
-.bg-green-300 {
-  background: hsl(90, 100%, 30%);
-}
-.bg-red-300 {
-  background: hsl(0, 100%, 30%);
-}
-.text-gray-300 {
-  color: hsl(0, 0%, 30%);
-}
-.text-blue-300 {
-  color: hsl(220, 100%, 30%);
-}
-.text-green-300 {
-  color: hsl(90, 100%, 30%);
-}
-.text-red-300 {
-  color: hsl(0, 100%, 30%);
-}
-.bg-gray-400 {
-  background: hsl(0, 0%, 40%);
-}
-.bg-blue-400 {
-  background: hsl(220, 100%, 40%);
-}
-.bg-green-400 {
-  background: hsl(90, 100%, 40%);
-}
-.bg-red-400 {
-  background: hsl(0, 100%, 40%);
-}
-.text-gray-400 {
-  color: hsl(0, 0%, 40%);
-}
-.text-blue-400 {
-  color: hsl(220, 100%, 40%);
-}
-.text-green-400 {
-  color: hsl(90, 100%, 40%);
-}
-.text-red-400 {
-  color: hsl(0, 100%, 40%);
-}
-.bg-gray-500 {
-  background: hsl(0, 0%, 50%);
-}
-.bg-blue-500 {
-  background: hsl(220, 100%, 50%);
-}
-.bg-green-500 {
-  background: hsl(90, 100%, 50%);
-}
-.bg-red-500 {
-  background: hsl(0, 100%, 50%);
-}
-.text-gray-500 {
-  color: hsl(0, 0%, 50%);
-}
-.text-blue-500 {
-  color: hsl(220, 100%, 50%);
-}
-.text-green-500 {
-  color: hsl(90, 100%, 50%);
-}
-.text-red-500 {
-  color: hsl(0, 100%, 50%);
-}
-.bg-gray-600 {
-  background: hsl(0, 0%, 60%);
-}
-.bg-blue-600 {
-  background: hsl(220, 100%, 60%);
-}
-.bg-green-600 {
-  background: hsl(90, 100%, 60%);
-}
-.bg-red-600 {
-  background: hsl(0, 100%, 60%);
-}
-.text-gray-600 {
-  color: hsl(0, 0%, 60%);
-}
-.text-blue-600 {
-  color: hsl(220, 100%, 60%);
-}
-.text-green-600 {
-  color: hsl(90, 100%, 60%);
-}
-.text-red-600 {
-  color: hsl(0, 100%, 60%);
-}
-.bg-gray-700 {
-  background: hsl(0, 0%, 70%);
-}
-.bg-blue-700 {
-  background: hsl(220, 100%, 70%);
-}
-.bg-green-700 {
-  background: hsl(90, 100%, 70%);
-}
-.bg-red-700 {
-  background: hsl(0, 100%, 70%);
-}
-.text-gray-700 {
-  color: hsl(0, 0%, 70%);
-}
-.text-blue-700 {
-  color: hsl(220, 100%, 70%);
-}
-.text-green-700 {
-  color: hsl(90, 100%, 70%);
-}
-.text-red-700 {
-  color: hsl(0, 100%, 70%);
-}
-.bg-gray-800 {
-  background: hsl(0, 0%, 80%);
-}
-.bg-blue-800 {
-  background: hsl(220, 100%, 80%);
-}
-.bg-green-800 {
-  background: hsl(90, 100%, 80%);
-}
-.bg-red-800 {
-  background: hsl(0, 100%, 80%);
-}
-.text-gray-800 {
-  color: hsl(0, 0%, 80%);
-}
-.text-blue-800 {
-  color: hsl(220, 100%, 80%);
-}
-.text-green-800 {
-  color: hsl(90, 100%, 80%);
-}
-.text-red-800 {
-  color: hsl(0, 100%, 80%);
-}
-.bg-gray-900 {
   background: hsl(0, 0%, 90%);
 }
-.bg-blue-900 {
-  background: hsl(220, 100%, 90%);
+.bg-blue-100 {
+  background: hsl(200, 55%, 90%);
 }
-.bg-green-900 {
-  background: hsl(90, 100%, 90%);
+.bg-green-100 {
+  background: hsl(135, 55%, 90%);
 }
-.bg-red-900 {
-  background: hsl(0, 100%, 90%);
+.bg-red-100 {
+  background: hsl(0, 55%, 90%);
 }
-.text-gray-900 {
+.text-gray-100 {
   color: hsl(0, 0%, 90%);
 }
+.text-blue-100 {
+  color: hsl(208, 55%, 90%);
+}
+.text-green-100 {
+  color: hsl(114, 55%, 90%);
+}
+.text-red-100 {
+  color: hsl(0, 55%, 90%);
+}
+.bg-gray-200 {
+  background: hsl(0, 0%, 82.5%);
+}
+.bg-blue-200 {
+  background: hsl(200, 70.3125%, 82.5%);
+}
+.bg-green-200 {
+  background: hsl(135, 70.3125%, 82.5%);
+}
+.bg-red-200 {
+  background: hsl(0, 70.3125%, 82.5%);
+}
+.text-gray-200 {
+  color: hsl(0, 0%, 82.5%);
+}
+.text-blue-200 {
+  color: hsl(208, 70.3125%, 82.5%);
+}
+.text-green-200 {
+  color: hsl(114, 70.3125%, 82.5%);
+}
+.text-red-200 {
+  color: hsl(0, 70.3125%, 82.5%);
+}
+.bg-gray-300 {
+  background: hsl(0, 0%, 75%);
+}
+.bg-blue-300 {
+  background: hsl(200, 81.25%, 75%);
+}
+.bg-green-300 {
+  background: hsl(135, 81.25%, 75%);
+}
+.bg-red-300 {
+  background: hsl(0, 81.25%, 75%);
+}
+.text-gray-300 {
+  color: hsl(0, 0%, 75%);
+}
+.text-blue-300 {
+  color: hsl(208, 81.25%, 75%);
+}
+.text-green-300 {
+  color: hsl(114, 81.25%, 75%);
+}
+.text-red-300 {
+  color: hsl(0, 81.25%, 75%);
+}
+.bg-gray-400 {
+  background: hsl(0, 0%, 67.5%);
+}
+.bg-blue-400 {
+  background: hsl(200, 87.8125%, 67.5%);
+}
+.bg-green-400 {
+  background: hsl(135, 87.8125%, 67.5%);
+}
+.bg-red-400 {
+  background: hsl(0, 87.8125%, 67.5%);
+}
+.text-gray-400 {
+  color: hsl(0, 0%, 67.5%);
+}
+.text-blue-400 {
+  color: hsl(208, 87.8125%, 67.5%);
+}
+.text-green-400 {
+  color: hsl(114, 87.8125%, 67.5%);
+}
+.text-red-400 {
+  color: hsl(0, 87.8125%, 67.5%);
+}
+.bg-gray-500 {
+  background: hsl(0, 0%, 60%);
+}
+.bg-blue-500 {
+  background: hsl(200, 90%, 60%);
+}
+.bg-green-500 {
+  background: hsl(135, 90%, 60%);
+}
+.bg-red-500 {
+  background: hsl(0, 90%, 60%);
+}
+.text-gray-500 {
+  color: hsl(0, 0%, 60%);
+}
+.text-blue-500 {
+  color: hsl(208, 90%, 60%);
+}
+.text-green-500 {
+  color: hsl(114, 90%, 60%);
+}
+.text-red-500 {
+  color: hsl(0, 90%, 60%);
+}
+.bg-gray-600 {
+  background: hsl(0, 0%, 52.5%);
+}
+.bg-blue-600 {
+  background: hsl(200, 87.8125%, 52.5%);
+}
+.bg-green-600 {
+  background: hsl(135, 87.8125%, 52.5%);
+}
+.bg-red-600 {
+  background: hsl(0, 87.8125%, 52.5%);
+}
+.text-gray-600 {
+  color: hsl(0, 0%, 52.5%);
+}
+.text-blue-600 {
+  color: hsl(208, 87.8125%, 52.5%);
+}
+.text-green-600 {
+  color: hsl(114, 87.8125%, 52.5%);
+}
+.text-red-600 {
+  color: hsl(0, 87.8125%, 52.5%);
+}
+.bg-gray-700 {
+  background: hsl(0, 0%, 45%);
+}
+.bg-blue-700 {
+  background: hsl(200, 81.25%, 45%);
+}
+.bg-green-700 {
+  background: hsl(135, 81.25%, 45%);
+}
+.bg-red-700 {
+  background: hsl(0, 81.25%, 45%);
+}
+.text-gray-700 {
+  color: hsl(0, 0%, 45%);
+}
+.text-blue-700 {
+  color: hsl(208, 81.25%, 45%);
+}
+.text-green-700 {
+  color: hsl(114, 81.25%, 45%);
+}
+.text-red-700 {
+  color: hsl(0, 81.25%, 45%);
+}
+.bg-gray-800 {
+  background: hsl(0, 0%, 37.5%);
+}
+.bg-blue-800 {
+  background: hsl(200, 70.3125%, 37.5%);
+}
+.bg-green-800 {
+  background: hsl(135, 70.3125%, 37.5%);
+}
+.bg-red-800 {
+  background: hsl(0, 70.3125%, 37.5%);
+}
+.text-gray-800 {
+  color: hsl(0, 0%, 37.5%);
+}
+.text-blue-800 {
+  color: hsl(208, 70.3125%, 37.5%);
+}
+.text-green-800 {
+  color: hsl(114, 70.3125%, 37.5%);
+}
+.text-red-800 {
+  color: hsl(0, 70.3125%, 37.5%);
+}
+.bg-gray-900 {
+  background: hsl(0, 0%, 30%);
+}
+.bg-blue-900 {
+  background: hsl(200, 55%, 30%);
+}
+.bg-green-900 {
+  background: hsl(135, 55%, 30%);
+}
+.bg-red-900 {
+  background: hsl(0, 55%, 30%);
+}
+.text-gray-900 {
+  color: hsl(0, 0%, 30%);
+}
 .text-blue-900 {
-  color: hsl(220, 100%, 90%);
+  color: hsl(208, 55%, 30%);
 }
 .text-green-900 {
-  color: hsl(90, 100%, 90%);
+  color: hsl(114, 55%, 30%);
 }
 .text-red-900 {
-  color: hsl(0, 100%, 90%);
+  color: hsl(0, 55%, 30%);
+}
+.bg-gray-950 {
+  background: hsl(0, 0%, 26.25%);
+}
+.bg-blue-950 {
+  background: hsl(200, 45.703125%, 26.25%);
+}
+.bg-green-950 {
+  background: hsl(135, 45.703125%, 26.25%);
+}
+.bg-red-950 {
+  background: hsl(0, 45.703125%, 26.25%);
+}
+.text-gray-950 {
+  color: hsl(0, 0%, 26.25%);
+}
+.text-blue-950 {
+  color: hsl(208, 45.703125%, 26.25%);
+}
+.text-green-950 {
+  color: hsl(114, 45.703125%, 26.25%);
+}
+.text-red-950 {
+  color: hsl(0, 45.703125%, 26.25%);
 }
 .bg-white {
   background: #fff;
