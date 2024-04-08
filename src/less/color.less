@@ -25,6 +25,10 @@ each(@light_list, {
     background: hsl(0, .calculate_saturation(@value)[@result], .calculate_light(@value)[@result]);
   }
 
+  .bg-yellow-@{value} {
+    background: hsl(53, .calculate_saturation(@value)[@result], .calculate_light(@value)[@result]);
+  }
+
   .text-gray-@{value} {
     color: hsl(0, 0%, .calculate_light(@value)[@result]);
   }
@@ -39,6 +43,10 @@ each(@light_list, {
 
   .text-red-@{value} {
     color: hsl(0, .calculate_saturation(@value)[@result], .calculate_light(@value)[@result]);
+  }
+
+  .text-yellow-@{value} {
+    color: hsl(53, .calculate_saturation(@value)[@result], .calculate_light(@value)[@result]);
   }
 })
 

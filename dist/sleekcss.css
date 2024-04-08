@@ -1261,6 +1261,9 @@ a {
 .bg-red-50 {
   background: hsl(0, 45.703125%, 93.75%);
 }
+.bg-yellow-50 {
+  background: hsl(53, 45.703125%, 93.75%);
+}
 .text-gray-50 {
   color: hsl(0, 0%, 93.75%);
 }
@@ -1272,6 +1275,9 @@ a {
 }
 .text-red-50 {
   color: hsl(0, 45.703125%, 93.75%);
+}
+.text-yellow-50 {
+  color: hsl(53, 45.703125%, 93.75%);
 }
 .bg-gray-100 {
   background: hsl(0, 0%, 90%);
@@ -1285,6 +1291,9 @@ a {
 .bg-red-100 {
   background: hsl(0, 55%, 90%);
 }
+.bg-yellow-100 {
+  background: hsl(53, 55%, 90%);
+}
 .text-gray-100 {
   color: hsl(0, 0%, 90%);
 }
@@ -1296,6 +1305,9 @@ a {
 }
 .text-red-100 {
   color: hsl(0, 55%, 90%);
+}
+.text-yellow-100 {
+  color: hsl(53, 55%, 90%);
 }
 .bg-gray-200 {
   background: hsl(0, 0%, 82.5%);
@@ -1309,6 +1321,9 @@ a {
 .bg-red-200 {
   background: hsl(0, 70.3125%, 82.5%);
 }
+.bg-yellow-200 {
+  background: hsl(53, 70.3125%, 82.5%);
+}
 .text-gray-200 {
   color: hsl(0, 0%, 82.5%);
 }
@@ -1320,6 +1335,9 @@ a {
 }
 .text-red-200 {
   color: hsl(0, 70.3125%, 82.5%);
+}
+.text-yellow-200 {
+  color: hsl(53, 70.3125%, 82.5%);
 }
 .bg-gray-300 {
   background: hsl(0, 0%, 75%);
@@ -1333,6 +1351,9 @@ a {
 .bg-red-300 {
   background: hsl(0, 81.25%, 75%);
 }
+.bg-yellow-300 {
+  background: hsl(53, 81.25%, 75%);
+}
 .text-gray-300 {
   color: hsl(0, 0%, 75%);
 }
@@ -1344,6 +1365,9 @@ a {
 }
 .text-red-300 {
   color: hsl(0, 81.25%, 75%);
+}
+.text-yellow-300 {
+  color: hsl(53, 81.25%, 75%);
 }
 .bg-gray-400 {
   background: hsl(0, 0%, 67.5%);
@@ -1357,6 +1381,9 @@ a {
 .bg-red-400 {
   background: hsl(0, 87.8125%, 67.5%);
 }
+.bg-yellow-400 {
+  background: hsl(53, 87.8125%, 67.5%);
+}
 .text-gray-400 {
   color: hsl(0, 0%, 67.5%);
 }
@@ -1368,6 +1395,9 @@ a {
 }
 .text-red-400 {
   color: hsl(0, 87.8125%, 67.5%);
+}
+.text-yellow-400 {
+  color: hsl(53, 87.8125%, 67.5%);
 }
 .bg-gray-500 {
   background: hsl(0, 0%, 60%);
@@ -1381,6 +1411,9 @@ a {
 .bg-red-500 {
   background: hsl(0, 90%, 60%);
 }
+.bg-yellow-500 {
+  background: hsl(53, 90%, 60%);
+}
 .text-gray-500 {
   color: hsl(0, 0%, 60%);
 }
@@ -1392,6 +1425,9 @@ a {
 }
 .text-red-500 {
   color: hsl(0, 90%, 60%);
+}
+.text-yellow-500 {
+  color: hsl(53, 90%, 60%);
 }
 .bg-gray-600 {
   background: hsl(0, 0%, 52.5%);
@@ -1405,6 +1441,9 @@ a {
 .bg-red-600 {
   background: hsl(0, 87.8125%, 52.5%);
 }
+.bg-yellow-600 {
+  background: hsl(53, 87.8125%, 52.5%);
+}
 .text-gray-600 {
   color: hsl(0, 0%, 52.5%);
 }
@@ -1416,6 +1455,9 @@ a {
 }
 .text-red-600 {
   color: hsl(0, 87.8125%, 52.5%);
+}
+.text-yellow-600 {
+  color: hsl(53, 87.8125%, 52.5%);
 }
 .bg-gray-700 {
   background: hsl(0, 0%, 45%);
@@ -1429,6 +1471,9 @@ a {
 .bg-red-700 {
   background: hsl(0, 81.25%, 45%);
 }
+.bg-yellow-700 {
+  background: hsl(53, 81.25%, 45%);
+}
 .text-gray-700 {
   color: hsl(0, 0%, 45%);
 }
@@ -1440,6 +1485,9 @@ a {
 }
 .text-red-700 {
   color: hsl(0, 81.25%, 45%);
+}
+.text-yellow-700 {
+  color: hsl(53, 81.25%, 45%);
 }
 .bg-gray-800 {
   background: hsl(0, 0%, 37.5%);
@@ -1453,6 +1501,9 @@ a {
 .bg-red-800 {
   background: hsl(0, 70.3125%, 37.5%);
 }
+.bg-yellow-800 {
+  background: hsl(53, 70.3125%, 37.5%);
+}
 .text-gray-800 {
   color: hsl(0, 0%, 37.5%);
 }
@@ -1464,6 +1515,9 @@ a {
 }
 .text-red-800 {
   color: hsl(0, 70.3125%, 37.5%);
+}
+.text-yellow-800 {
+  color: hsl(53, 70.3125%, 37.5%);
 }
 .bg-gray-900 {
   background: hsl(0, 0%, 30%);
@@ -1477,6 +1531,9 @@ a {
 .bg-red-900 {
   background: hsl(0, 55%, 30%);
 }
+.bg-yellow-900 {
+  background: hsl(53, 55%, 30%);
+}
 .text-gray-900 {
   color: hsl(0, 0%, 30%);
 }
@@ -1488,6 +1545,9 @@ a {
 }
 .text-red-900 {
   color: hsl(0, 55%, 30%);
+}
+.text-yellow-900 {
+  color: hsl(53, 55%, 30%);
 }
 .bg-gray-950 {
   background: hsl(0, 0%, 26.25%);
@@ -1501,6 +1561,9 @@ a {
 .bg-red-950 {
   background: hsl(0, 45.703125%, 26.25%);
 }
+.bg-yellow-950 {
+  background: hsl(53, 45.703125%, 26.25%);
+}
 .text-gray-950 {
   color: hsl(0, 0%, 26.25%);
 }
@@ -1512,6 +1575,9 @@ a {
 }
 .text-red-950 {
   color: hsl(0, 45.703125%, 26.25%);
+}
+.text-yellow-950 {
+  color: hsl(53, 45.703125%, 26.25%);
 }
 .bg-white {
   background: #fff;
