@@ -1261,6 +1261,18 @@ a {
 .bg-red-50 {
   background: hsl(0, 100%, 5%);
 }
+.text-gray-50 {
+  color: hsl(0, 0%, 5%);
+}
+.text-blue-50 {
+  color: hsl(220, 100%, 5%);
+}
+.text-green-50 {
+  color: hsl(90, 100%, 5%);
+}
+.text-red-50 {
+  color: hsl(0, 100%, 5%);
+}
 .bg-gray-100 {
   background: hsl(0, 0%, 10%);
 }
@@ -1272,6 +1284,18 @@ a {
 }
 .bg-red-100 {
   background: hsl(0, 100%, 10%);
+}
+.text-gray-100 {
+  color: hsl(0, 0%, 10%);
+}
+.text-blue-100 {
+  color: hsl(220, 100%, 10%);
+}
+.text-green-100 {
+  color: hsl(90, 100%, 10%);
+}
+.text-red-100 {
+  color: hsl(0, 100%, 10%);
 }
 .bg-gray-200 {
   background: hsl(0, 0%, 20%);
@@ -1285,6 +1309,18 @@ a {
 .bg-red-200 {
   background: hsl(0, 100%, 20%);
 }
+.text-gray-200 {
+  color: hsl(0, 0%, 20%);
+}
+.text-blue-200 {
+  color: hsl(220, 100%, 20%);
+}
+.text-green-200 {
+  color: hsl(90, 100%, 20%);
+}
+.text-red-200 {
+  color: hsl(0, 100%, 20%);
+}
 .bg-gray-300 {
   background: hsl(0, 0%, 30%);
 }
@@ -1296,6 +1332,18 @@ a {
 }
 .bg-red-300 {
   background: hsl(0, 100%, 30%);
+}
+.text-gray-300 {
+  color: hsl(0, 0%, 30%);
+}
+.text-blue-300 {
+  color: hsl(220, 100%, 30%);
+}
+.text-green-300 {
+  color: hsl(90, 100%, 30%);
+}
+.text-red-300 {
+  color: hsl(0, 100%, 30%);
 }
 .bg-gray-400 {
   background: hsl(0, 0%, 40%);
@@ -1309,6 +1357,18 @@ a {
 .bg-red-400 {
   background: hsl(0, 100%, 40%);
 }
+.text-gray-400 {
+  color: hsl(0, 0%, 40%);
+}
+.text-blue-400 {
+  color: hsl(220, 100%, 40%);
+}
+.text-green-400 {
+  color: hsl(90, 100%, 40%);
+}
+.text-red-400 {
+  color: hsl(0, 100%, 40%);
+}
 .bg-gray-500 {
   background: hsl(0, 0%, 50%);
 }
@@ -1320,6 +1380,18 @@ a {
 }
 .bg-red-500 {
   background: hsl(0, 100%, 50%);
+}
+.text-gray-500 {
+  color: hsl(0, 0%, 50%);
+}
+.text-blue-500 {
+  color: hsl(220, 100%, 50%);
+}
+.text-green-500 {
+  color: hsl(90, 100%, 50%);
+}
+.text-red-500 {
+  color: hsl(0, 100%, 50%);
 }
 .bg-gray-600 {
   background: hsl(0, 0%, 60%);
@@ -1333,6 +1405,18 @@ a {
 .bg-red-600 {
   background: hsl(0, 100%, 60%);
 }
+.text-gray-600 {
+  color: hsl(0, 0%, 60%);
+}
+.text-blue-600 {
+  color: hsl(220, 100%, 60%);
+}
+.text-green-600 {
+  color: hsl(90, 100%, 60%);
+}
+.text-red-600 {
+  color: hsl(0, 100%, 60%);
+}
 .bg-gray-700 {
   background: hsl(0, 0%, 70%);
 }
@@ -1344,6 +1428,18 @@ a {
 }
 .bg-red-700 {
   background: hsl(0, 100%, 70%);
+}
+.text-gray-700 {
+  color: hsl(0, 0%, 70%);
+}
+.text-blue-700 {
+  color: hsl(220, 100%, 70%);
+}
+.text-green-700 {
+  color: hsl(90, 100%, 70%);
+}
+.text-red-700 {
+  color: hsl(0, 100%, 70%);
 }
 .bg-gray-800 {
   background: hsl(0, 0%, 80%);
@@ -1357,6 +1453,18 @@ a {
 .bg-red-800 {
   background: hsl(0, 100%, 80%);
 }
+.text-gray-800 {
+  color: hsl(0, 0%, 80%);
+}
+.text-blue-800 {
+  color: hsl(220, 100%, 80%);
+}
+.text-green-800 {
+  color: hsl(90, 100%, 80%);
+}
+.text-red-800 {
+  color: hsl(0, 100%, 80%);
+}
 .bg-gray-900 {
   background: hsl(0, 0%, 90%);
 }
@@ -1369,11 +1477,29 @@ a {
 .bg-red-900 {
   background: hsl(0, 100%, 90%);
 }
+.text-gray-900 {
+  color: hsl(0, 0%, 90%);
+}
+.text-blue-900 {
+  color: hsl(220, 100%, 90%);
+}
+.text-green-900 {
+  color: hsl(90, 100%, 90%);
+}
+.text-red-900 {
+  color: hsl(0, 100%, 90%);
+}
 .bg-white {
   background: #fff;
 }
 .bg-black {
   background: #3b3b3b;
+}
+.text-white {
+  color: #fff;
+}
+.text-black {
+  color: #3b3b3b;
 }
 .bg-transparent {
   background: transparent !important;
