@@ -2,7 +2,6 @@
   display: grid;
 }
 
-@cols_list: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
 each(@cols_list, {
   .grid-cols-@{value} {
     grid-template-columns: repeat(@value, minmax(0, 1fr));

@@ -28,8 +28,9 @@ a {
   border-radius: 12px !important;
   overflow: hidden;
 }
-.border {
-  border: 1px solid #dedede;
+.radius {
+  border-radius: 8px !important;
+  overflow: hidden;
 }
 .border-top {
   border-top: 1px solid #dedede;
@@ -42,6 +43,9 @@ a {
 }
 .border-right {
   border-right: 1px solid #dedede;
+}
+.border {
+  border: 1px solid #dedede;
 }
 .text-left {
   text-align: left;
@@ -126,11 +130,6 @@ a {
   background: #507fec;
   border: 1px solid #507fec;
 }
-.button-info {
-  color: #fff;
-  background: #59eeff;
-  border: 1px solid #59eeff;
-}
 .button-success {
   color: #fff;
   background: #369c66;
@@ -145,6 +144,11 @@ a {
   color: #fff;
   background: #d72306;
   border: 1px solid #d72306;
+}
+.button-info {
+  color: #fff;
+  background: #47e9fe;
+  border: 1px solid #47e9fe;
 }
 .button-warning {
   color: #333;
@@ -1226,6 +1230,9 @@ a {
 .display-flex {
   display: flex;
 }
+.flex-grow-0 {
+  flex-grow: 0;
+}
 .flex-grow-1 {
   flex-grow: 1;
 }
@@ -1241,6 +1248,12 @@ a {
   }
   .md\:display-flex {
     display: flex;
+  }
+  .md\:flex-grow-0 {
+    flex-grow: 0;
+  }
+  .md\:flex-grow-1 {
+    flex-grow: 1;
   }
 }
 .bg-gray-50 {
@@ -1667,21 +1680,6 @@ a {
 .top-16 {
   top: 16px;
 }
-.right-0 {
-  right: 0;
-}
-.right-4 {
-  right: 4px;
-}
-.right-8 {
-  right: 8px;
-}
-.right-12 {
-  right: 12px;
-}
-.right-16 {
-  right: 16px;
-}
 .bottom-0 {
   bottom: 0;
 }
@@ -1711,6 +1709,21 @@ a {
 }
 .left-16 {
   left: 16px;
+}
+.right-0 {
+  right: 0;
+}
+.right-4 {
+  right: 4px;
+}
+.right-8 {
+  right: 8px;
+}
+.right-12 {
+  right: 12px;
+}
+.right-16 {
+  right: 16px;
 }
 .z-index-100 {
   z-index: 100;
