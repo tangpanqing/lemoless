@@ -40,6 +40,9 @@ a {
   display: inline-block;
   width: auto;
 }
+.select {
+  -webkit-appearance: none;
+}
 .button-primary {
   color: #fff;
   background: #507fec;
