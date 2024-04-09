@@ -319,6 +319,18 @@ a {
 .flex-grow-1 {
   flex-grow: 1;
 }
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+.flex-shrink-1 {
+  flex-shrink: 1;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
 .justify-content-between {
   justify-content: space-between;
 }
@@ -337,6 +349,18 @@ a {
   }
   .md\:flex-grow-1 {
     flex-grow: 1;
+  }
+  .md\:flex-shrink-0 {
+    flex-shrink: 0;
+  }
+  .md\:flex-shrink-1 {
+    flex-shrink: 1;
+  }
+  .md\:flex-wrap {
+    flex-wrap: wrap;
+  }
+  .md\:flex-nowrap {
+    flex-wrap: nowrap;
   }
 }
 .bg-gray-50 {
